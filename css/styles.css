@@ -2,6 +2,12 @@
     border: 1px solid #ff0000
 }
 
+:root {
+    --primary-color: #246cb4;
+    --secondary-color: #2c5c84;
+
+}
+
 /*HEADER*/
 
 header {
@@ -10,7 +16,7 @@ header {
 }
 
 #links a {
-    color: black;
+    color: var(--primary-color);
     text-decoration: none;
     font-size: smaller;
     display: inline-block;
@@ -30,21 +36,17 @@ header {
     align-items: center;
 }
 
-.menu {
-    text-align: center;
-    margin: 0;
-    padding-top: 20px;
+#name-hospital p {
+    color: var(--primary-color);
 }
 
-.items {
-    list-style-type: none;
+/*NAV BAR*/
+#header-bar {
+    margin: auto;
+    width: 100%;
 }
 
-#nav-bar ul li {
-    display: inline-block;
-}
-
-#nav-bar a {
-    color: black;
-    text-decoration: none;
+#header-bar ul,
+ol {
+    list-style: none;
 }
