@@ -59,7 +59,7 @@ header {
     position: relative;
 }
 
-#header-bar nav li ul {
+#header-bar .menu ul {
     position: absolute;
 }
 
@@ -75,6 +75,7 @@ header {
     background-color: var(--secondary-color);
 }
 
+/*
 #header-bar nav li ul {
     display: none;
 }
@@ -82,30 +83,39 @@ header {
 #header-bar nav li:hover>ul {
     display: block;
 }
+*/
 
 /*FIRST LEVEL*/
-#header-bar nav>ul {
+.menu {
     background-color: var(--primary-color);
     display: table;
     width: 100%;
 }
 
-#header-bar nav>ul>li {
+#header-bar .menu>li {
     float: left;
 }
 
 /*SECOND LEVER*/
 #header-bar nav li li {
     background-color: var(--primary-color);
+    max-height: 0;
+    transition: all .6s;
+    overflow: hidden;
     width: 200px;
 }
 
-#header-bar nav>ul>li>ul {
+#header-bar nav li:hover>ul>li {
+    max-height: 500px;
+    overflow: visible;
+}
+
+#header-bar .menu>li>ul {
     top: 100%;
 }
 
 /*THIRD LEVEL*/
-#header-bar ul ul ul {
+#header-bar .menu ul ul {
     left: 100%;
     top: 0;
 }
