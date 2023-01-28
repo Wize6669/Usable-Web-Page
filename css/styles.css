@@ -1,5 +1,7 @@
 * {
-    border: 1px solid #ff0000
+    border: 1px solid #ff0000;
+    margin: 0px;
+    padding: 0px;
 }
 
 :root {
@@ -46,7 +48,64 @@ header {
     width: 100%;
 }
 
-#header-bar ul,
-ol {
+/*GENERAL STYLES*/
+#header-bar nav ul {
     list-style: none;
+    padding: 0;
+}
+
+#header-bar nav li {
+    line-height: 3rem;
+    position: relative;
+}
+
+#header-bar nav li ul {
+    position: absolute;
+}
+
+#header-bar nav a {
+    color: white;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#header-bar nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+#header-bar nav li ul {
+    display: none;
+}
+
+#header-bar nav li:hover>ul {
+    display: block;
+}
+
+/*FIRST LEVEL*/
+#header-bar nav>ul {
+    background-color: var(--primary-color);
+    display: table;
+    width: 100%;
+}
+
+#header-bar nav>ul>li {
+    float: left;
+}
+
+/*SECOND LEVER*/
+#header-bar nav li li {
+    background-color: var(--primary-color);
+    width: 200px;
+}
+
+#header-bar nav>ul>li>ul {
+    top: 100%;
+}
+
+/*THIRD LEVEL*/
+#header-bar ul ul ul {
+    left: 100%;
+    top: 0;
 }
