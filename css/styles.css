@@ -121,6 +121,8 @@ header {
 }
 
 /*CAROUSEL*/
+
+
 .carousel-caption p {
     display: none;
     text-align: justify;
@@ -128,4 +130,8 @@ header {
 
 .carousel:hover .carousel-caption p {
     display: block;
+}
+
+#video {
+    padding: auto;
 }
