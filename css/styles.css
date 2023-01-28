@@ -119,3 +119,13 @@ header {
     left: 100%;
     top: 0;
 }
+
+/*CAROUSEL*/
+.carousel-caption p {
+    display: none;
+    text-align: justify;
+}
+
+.carousel:hover .carousel-caption p {
+    display: block;
+}
