@@ -75,6 +75,7 @@ header {
     background-color: var(--secondary-color);
 }
 
+
 /*
 #header-bar nav li ul {
     display: none;
@@ -122,7 +123,6 @@ header {
 
 /*CAROUSEL*/
 
-
 .carousel-caption p {
     display: none;
     text-align: justify;
@@ -134,4 +134,51 @@ header {
 
 #video {
     padding: auto;
+}
+
+/*ZIMBRA*/
+
+#box {
+    height: vh;
+    align-items: center;
+    justify-content: center;
+    margin: 125px auto;
+    color: white;
+}
+
+.logo-zimbra {
+    text-align: center;
+}
+
+.logo-zimbra img {
+    height: 75px;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--primary-color);
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.invalid-feedback {
+    color: white;
+}
+
+#btn-login {
+    background-color: #1F48CC;
 }
