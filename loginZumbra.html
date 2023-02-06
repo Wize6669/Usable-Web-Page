@@ -16,8 +16,8 @@
 
     <div class="container" id="bodyLogin">
         <div class="login" id="box">
-            <div class="logo-zimbra">
-                <img src="./img/logo-ministerio-salud3.png" alt="Logo del ministerio de salud">
+            <div class="logo-zimbra" tabindex="1">
+                <img src="./img/logo-ministerio-salud3.png" alt="Imagen del logo del Ministerio de Salud Pública" title="Logo del Ministerio de Salud Pública">
             </div>
 
             <br>
@@ -25,27 +25,27 @@
             <div class="container">
                 <form action="" method="post" class="needs-validation">
                     <div class="form-group">
-                        <label class="form-label" for="userName">Nombre de Usuario:</label>
-                        <input class="form-control" type="text" id="userName" required>
+                        <label class="form-label" for="userName" tabindex="2">Nombre de Usuario:</label>
+                        <input class="form-control" type="text" id="userName" required tabindex="3">
                         <div class="invalid-feedback">
                             Por favor ingresar su nombre de Usuario
                         </div>
                     </div>
 
                     <div class="form-group was-validated">
-                        <label class="form-label" for="password">Contraseña:</label>
-                        <input class="form-control" type="password" id="password" required>
+                        <label class="form-label" for="password" tabindex="4">Contraseña:</label>
+                        <input class="form-control" type="password" id="password" required tabindex="5">
                         <div class="invalid-feedback">
                             Por favor ingresar su contraseña
                         </div>
                     </div>
 
                     <div class="form-group form-check">
-                        <input class="form-check-input" type="checkbox" id="check">
-                        <label class="form-check-label" for="check">Recordarme</label>
+                        <input class="form-check-input" type="checkbox" id="check" tabindex="7">
+                        <label class="form-check-label" for="check" tabindex="6">Recordarme</label>
                     </div>
 
-                    <input class="btn btn-success w-100" type="submit" value="Iniciar sesión" id="btn-login">
+                    <input class="btn btn-success w-100" type="submit" value="Iniciar sesión" id="btn-login" tabindex="8">
                 </form>
             </div>
         </div>
