@@ -53,6 +53,9 @@ header {
     list-style: none;
     padding: 0;
 }
+.container-fluid,#container{position: relative;}
+.container-fluid{z-index: 2;}
+.container{z-index: 100;}
 
 #header-bar nav li {
     line-height: 3rem;
