@@ -1,8 +1,8 @@
-* {
+/** {
     border: 1px solid #ff0000;
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 :root {
     --primary-color: #246cb4;
@@ -197,3 +197,10 @@ header {
 #paragraph-mapa {
     text-align:justify ;
 }
+
+.recuadro {
+    background-color: #1F48CC;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+  }
