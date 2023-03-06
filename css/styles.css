@@ -2,7 +2,7 @@
     border: 1px solid #ff0000;
     margin: 0px;
     padding: 0px;
-}*/
+}*/ 
 
 :root {
     --primary-color: #246cb4;
@@ -199,8 +199,36 @@ header {
 }
 
 .recuadro {
-    background-color: #1F48CC;
+    background-color: #246cb4;
     color: #ffffff;
     border-radius: 10px;
     padding: 10px;
   }
+
+/* Centra el contenido del pie de página */
+.footer {
+    background-color: #246cb4;
+    text-align: center;
+    display: flex;    
+    line-height: normal;
+}
+
+.colorTextoPieDePagina{
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+/* Centra la imagen */
+.imagenPieDePagina {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+}
