@@ -187,7 +187,9 @@ header {
 }
 
 /*MAPA DEL SITIO*/
-#ContainerInfo{}
+.mapHospital{ 
+    width: 665px; height: 545; margin: 0%;
+    padding: 1px 1px 1px 1px; border: 1px solid black; border-radius: 3%;}
 #title-h1 {
     margin: 0%;
     float: left;
@@ -238,9 +240,12 @@ header {
 
 /* Centra el contenido del pie de página */
 .footer {
+    margin-top: 100px;
+    width: 100%;
     background-color: #246cb4;
     text-align: center;
-    display: flex;    
+    display: flex;
+    float: left;
     line-height: normal;
 }
 
